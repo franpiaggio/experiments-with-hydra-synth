@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+
+  /* leave it to hide the scrollbars */
+  overflow: hidden;
+  margin: 0;
+}
+#code-wrapper{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#code {
+  z-index: 999;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  background: #2021248f;
+  margin: 0 10%;
+  padding: 0 5px;
+  border-radius: 5px;
+}
